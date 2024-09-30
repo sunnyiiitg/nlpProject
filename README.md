@@ -70,7 +70,7 @@ This project performs sentiment analysis on movie reviews using a Naive Bayes cl
 2. Navigate to the project directory:
 
    ```bash
-   cd naive-bayes-sentiment-analysis
+   cd Sentiment Analysis
    ```
 
 3. Create a virtual environment (optional but recommended):
@@ -89,7 +89,7 @@ This project performs sentiment analysis on movie reviews using a Naive Bayes cl
 5. Run the sentiment analysis script:
 
    ```bash
-   python src/sentimentAnalysis.py
+   python src/analysis.py
    ```
 
 This will preprocess the data, train the Naive Bayes model, and output the evaluation results, including accuracy, precision, recall, and F1-score.
@@ -112,19 +112,18 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-### Updated File Structure:
+File Structure:
 
 ```
-naive-bayes-sentiment-analysis/
+Sentiment Analysis/
 │
 ├── dataset/
 │   ├── rt-polarity.pos             # Positive movie reviews dataset
 │   ├── rt-polarity.neg             # Negative movie reviews dataset
 │
 ├── src/
-│   └── sentimentAnalysis.py        # Main script for sentiment analysis using Naive Bayes
+│   └── analysis.py        # Main script for sentiment analysis using Naive Bayes
 │
 ├── requirements.txt                # Python dependencies
-├── README.md                       # Project documentation
-└── LICENSE                         # License file (e.g., MIT License)
+└── README.md                       # Project documentation
 ```
