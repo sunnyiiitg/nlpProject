@@ -64,7 +64,7 @@ This project performs sentiment analysis on movie reviews using a Naive Bayes cl
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/naive-bayes-sentiment-analysis.git
+   git clone https://github.com/sunnyiiitg/nlpProject.git
    ```
 
 2. Navigate to the project directory:
